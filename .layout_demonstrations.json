@@ -1,0 +1,1059 @@
+{
+  "left_content_pattern": {
+    "description": "All text elements aligned 20-30% from left edge",
+    "example_300x250": {
+      "canvas": {"width": 300, "height": 250},
+      "elements": [
+        {
+          "type": "headline",
+          "text": "Transform Your Business",
+          "position": {"x": 60, "y": 40},
+          "dimensions": {"width": 180, "height": 40},
+          "styling": {
+            "font_size": 28,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "subheadline", 
+          "text": "Innovative Solutions for Modern Challenges",
+          "position": {"x": 60, "y": 90},
+          "dimensions": {"width": 180, "height": 60},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "normal",
+            "color": "#666666",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Get Started",
+          "position": {"x": 60, "y": 180},
+          "dimensions": {"width": 120, "height": 40},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "background_color": "#4285F4",
+            "border_radius": 5
+          }
+        },
+        {
+          "type": "logo",
+          "position": {"x": 200, "y": 20},
+          "dimensions": {"width": 80, "height": 30},
+          "styling": {
+            "opacity": 1.0
+          }
+        }
+      ],
+      "rationale": "Left-aligned layout creates strong visual hierarchy, suitable for Western reading patterns. Logo positioned top-right for balance."
+    }
+  },
+  "right_content_pattern": {
+    "description": "All text elements aligned 60-70% from left edge, right-aligned text",
+    "example_300x250": {
+      "canvas": {"width": 300, "height": 250},
+      "elements": [
+        {
+          "type": "headline",
+          "text": "Premium Quality",
+          "position": {"x": 60, "y": 40},
+          "dimensions": {"width": 220, "height": 40},
+          "styling": {
+            "font_size": 28,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "right"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "Crafted with Precision and Care",
+          "position": {"x": 60, "y": 90},
+          "dimensions": {"width": 220, "height": 60},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "normal", 
+            "color": "#666666",
+            "alignment": "right"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Shop Now",
+          "position": {"x": 160, "y": 180},
+          "dimensions": {"width": 120, "height": 40},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "background_color": "#FF6B6B",
+            "border_radius": 5
+          }
+        },
+        {
+          "type": "logo",
+          "position": {"x": 20, "y": 20},
+          "dimensions": {"width": 80, "height": 30},
+          "styling": {
+            "opacity": 1.0
+          }
+        }
+      ],
+      "rationale": "Right-aligned content creates visual interest and works well with left-positioned logos or visual elements."
+    }
+  },
+  "z_pattern": {
+    "description": "Headline top left, visual top right, supporting text bottom left diagonal, CTA bottom right",
+    "example_728x90": {
+      "canvas": {"width": 728, "height": 90},
+      "elements": [
+        {
+          "type": "headline",
+          "text": "Summer Sale Event",
+          "position": {"x": 20, "y": 15},
+          "dimensions": {"width": 200, "height": 25},
+          "styling": {
+            "font_size": 20,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "visual_element",
+          "text": "50% OFF",
+          "position": {"x": 500, "y": 10},
+          "dimensions": {"width": 100, "height": 35},
+          "styling": {
+            "font_size": 24,
+            "font_weight": "bold",
+            "color": "#FF4444",
+            "alignment": "center"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "Limited time offer on all products",
+          "position": {"x": 20, "y": 50},
+          "dimensions": {"width": 300, "height": 20},
+          "styling": {
+            "font_size": 14,
+            "font_weight": "normal",
+            "color": "#666666",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Shop Now",
+          "position": {"x": 620, "y": 25},
+          "dimensions": {"width": 90, "height": 40},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "bold",
+            "color": "#FFFFFF", 
+            "background_color": "#4285F4",
+            "border_radius": 5
+          }
+        }
+      ],
+      "rationale": "Z-pattern follows natural eye movement, leading viewer from top-left to CTA in bottom-right."
+    }
+  },
+  "f_pattern": {
+    "description": "Headline spans top bar, key points on left, CTA aligned with points",
+    "example_970x250": {
+      "canvas": {"width": 970, "height": 250},
+      "elements": [
+        {
+          "type": "headline",
+          "text": "Revolutionize Your Workflow",
+          "position": {"x": 50, "y": 30},
+          "dimensions": {"width": 870, "height": 50},
+          "styling": {
+            "font_size": 40,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "key_point_1",
+          "text": "• Increase productivity by 300%",
+          "position": {"x": 50, "y": 100},
+          "dimensions": {"width": 400, "height": 30},
+          "styling": {
+            "font_size": 18,
+            "font_weight": "normal",
+            "color": "#555555",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "key_point_2", 
+          "text": "• Streamline team collaboration",
+          "position": {"x": 50, "y": 140},
+          "dimensions": {"width": 400, "height": 30},
+          "styling": {
+            "font_size": 18,
+            "font_weight": "normal",
+            "color": "#555555",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Start Free Trial",
+          "position": {"x": 50, "y": 190},
+          "dimensions": {"width": 150, "height": 40},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "background_color": "#28A745",
+            "border_radius": 5
+          }
+        },
+        {
+          "type": "logo",
+          "position": {"x": 800, "y": 20},
+          "dimensions": {"width": 120, "height": 45},
+          "styling": {
+            "opacity": 1.0
+          }
+        }
+      ],
+      "rationale": "F-pattern optimized for scannable content, with clear hierarchy and left-aligned call-to-action."
+    }
+  },
+  "centered_pattern": {
+    "description": "All elements center-aligned with balanced spacing",
+    "example_300x600": {
+      "canvas": {"width": 300, "height": 600},
+      "elements": [
+        {
+          "type": "logo",
+          "position": {"x": 110, "y": 50},
+          "dimensions": {"width": 80, "height": 30},
+          "styling": {
+            "opacity": 1.0
+          }
+        },
+        {
+          "type": "headline",
+          "text": "Join the Revolution",
+          "position": {"x": 20, "y": 150},
+          "dimensions": {"width": 260, "height": 80},
+          "styling": {
+            "font_size": 32,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "center"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "Experience the future of technology with our innovative solutions",
+          "position": {"x": 30, "y": 250},
+          "dimensions": {"width": 240, "height": 120},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "normal",
+            "color": "#666666",
+            "alignment": "center"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Learn More",
+          "position": {"x": 90, "y": 420},
+          "dimensions": {"width": 120, "height": 50},
+          "styling": {
+            "font_size": 18,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "background_color": "#6C5CE7",
+            "border_radius": 25
+          }
+        }
+      ],
+      "rationale": "Centered layout creates formal, balanced composition ideal for luxury brands or important announcements."
+    }
+  },
+  "rule_of_thirds": {
+    "description": "Elements aligned to grid intersections at 1/3 and 2/3 points",
+    "example_1200x628": {
+      "canvas": {"width": 1200, "height": 628},
+      "elements": [
+        {
+          "type": "headline",
+          "text": "Transform Your Business Today",
+          "position": {"x": 80, "y": 210},
+          "dimensions": {"width": 500, "height": 60},
+          "styling": {
+            "font_size": 48,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "Unlock growth potential with our advanced solutions",
+          "position": {"x": 80, "y": 290},
+          "dimensions": {"width": 450, "height": 80},
+          "styling": {
+            "font_size": 24,
+            "font_weight": "normal",
+            "color": "#CCCCCC",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Get Started",
+          "position": {"x": 80, "y": 420},
+          "dimensions": {"width": 180, "height": 60},
+          "styling": {
+            "font_size": 20,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "background_color": "#FF6B6B",
+            "border_radius": 8
+          }
+        },
+        {
+          "type": "logo",
+          "position": {"x": 1000, "y": 50},
+          "dimensions": {"width": 150, "height": 60},
+          "styling": {
+            "opacity": 0.9
+          }
+        }
+      ],
+      "rationale": "Rule of thirds creates natural, pleasing composition with elements at visual sweet spots."
+    }
+  },
+  "diagonal_pattern": {
+    "description": "Elements follow diagonal line creating dynamic movement",
+    "example_468x60": {
+      "canvas": {"width": 468, "height": 60},
+      "elements": [
+        {
+          "type": "logo",
+          "position": {"x": 10, "y": 10},
+          "dimensions": {"width": 60, "height": 20},
+          "styling": {
+            "opacity": 1.0
+          }
+        },
+        {
+          "type": "headline",
+          "text": "Dynamic Solutions",
+          "position": {"x": 85, "y": 15},
+          "dimensions": {"width": 180, "height": 25},
+          "styling": {
+            "font_size": 18,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Explore",
+          "position": {"x": 380, "y": 10},
+          "dimensions": {"width": 80, "height": 40},
+          "styling": {
+            "font_size": 14,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "background_color": "#17A2B8",
+            "border_radius": 5
+          }
+        }
+      ],
+      "rationale": "Diagonal arrangement creates energy and guides eye along the flow of elements."
+    }
+  },
+  "top_down_pattern": {
+    "description": "Clear vertical progression with consistent left alignment",
+    "example_160x600": {
+      "canvas": {"width": 160, "height": 600},
+      "elements": [
+        {
+          "type": "logo",
+          "position": {"x": 40, "y": 30},
+          "dimensions": {"width": 80, "height": 30},
+          "styling": {
+            "opacity": 1.0
+          }
+        },
+        {
+          "type": "headline",
+          "text": "New Collection",
+          "position": {"x": 20, "y": 100},
+          "dimensions": {"width": 120, "height": 80},
+          "styling": {
+            "font_size": 24,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "Discover the latest trends",
+          "position": {"x": 20, "y": 200},
+          "dimensions": {"width": 120, "height": 80},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "normal",
+            "color": "#666666",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "feature_list",
+          "text": "• Premium Quality\n• Fast Delivery\n• Great Prices",
+          "position": {"x": 20, "y": 300},
+          "dimensions": {"width": 120, "height": 120},
+          "styling": {
+            "font_size": 14,
+            "font_weight": "normal",
+            "color": "#555555",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Shop Now",
+          "position": {"x": 20, "y": 480},
+          "dimensions": {"width": 120, "height": 45},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "background_color": "#28A745",
+            "border_radius": 5
+          }
+        }
+      ],
+      "rationale": "Top-down pattern ensures clear information hierarchy perfect for vertical banners."
+    }
+  },
+  "pyramid_pattern": {
+    "description": "Largest element at top, progressively smaller elements, CTA as focal point",
+    "example_970x250": {
+      "canvas": {"width": 970, "height": 250},
+      "elements": [
+        {
+          "type": "headline",
+          "text": "MEGA SALE",
+          "position": {"x": 310, "y": 30},
+          "dimensions": {"width": 350, "height": 60},
+          "styling": {
+            "font_size": 54,
+            "font_weight": "bold",
+            "color": "#FF4444",
+            "alignment": "center"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "Up to 70% OFF",
+          "position": {"x": 360, "y": 100},
+          "dimensions": {"width": 250, "height": 40},
+          "styling": {
+            "font_size": 32,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "center"
+          }
+        },
+        {
+          "type": "supporting_text",
+          "text": "Limited Time Only",
+          "position": {"x": 410, "y": 150},
+          "dimensions": {"width": 150, "height": 25},
+          "styling": {
+            "font_size": 18,
+            "font_weight": "normal",
+            "color": "#666666",
+            "alignment": "center"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "SHOP NOW",
+          "position": {"x": 435, "y": 190},
+          "dimensions": {"width": 100, "height": 40},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "background_color": "#FF6B6B",
+            "border_radius": 5
+          }
+        },
+        {
+          "type": "logo",
+          "position": {"x": 50, "y": 30},
+          "dimensions": {"width": 100, "height": 40},
+          "styling": {
+            "opacity": 0.8
+          }
+        }
+      ],
+      "rationale": "Pyramid structure creates clear focal hierarchy leading to action button."
+    }
+  },
+  "grid_pattern": {
+    "description": "Elements aligned to modular grid with consistent spacing",
+    "example_336x280": {
+      "canvas": {"width": 336, "height": 280},
+      "elements": [
+        {
+          "type": "logo",
+          "position": {"x": 24, "y": 24},
+          "dimensions": {"width": 72, "height": 24},
+          "styling": {
+            "opacity": 1.0
+          }
+        },
+        {
+          "type": "headline",
+          "text": "Professional Services",
+          "position": {"x": 24, "y": 72},
+          "dimensions": {"width": 288, "height": 48},
+          "styling": {
+            "font_size": 28,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "Expert solutions for your business needs",
+          "position": {"x": 24, "y": 144},
+          "dimensions": {"width": 288, "height": 48},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "normal",
+            "color": "#666666",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Get Quote",
+          "position": {"x": 24, "y": 216},
+          "dimensions": {"width": 120, "height": 40},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "background_color": "#007BFF",
+            "border_radius": 4
+          }
+        }
+      ],
+      "rationale": "Grid-based layout ensures professional appearance with mathematically pleasing proportions."
+    }
+  },
+  "asymmetrical_pattern": {
+    "description": "Intentionally unbalanced with heavy elements offset by white space",
+    "example_250x250": {
+      "canvas": {"width": 250, "height": 250},
+      "elements": [
+        {
+          "type": "headline",
+          "text": "Think Different",
+          "position": {"x": 130, "y": 40},
+          "dimensions": {"width": 100, "height": 80},
+          "styling": {
+            "font_size": 20,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "right"
+          }
+        },
+        {
+          "type": "logo",
+          "position": {"x": 20, "y": 150},
+          "dimensions": {"width": 60, "height": 24},
+          "styling": {
+            "opacity": 1.0
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Discover",
+          "position": {"x": 140, "y": 180},
+          "dimensions": {"width": 90, "height": 35},
+          "styling": {
+            "font_size": 14,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "background_color": "#9B59B6",
+            "border_radius": 18
+          }
+        }
+      ],
+      "rationale": "Asymmetrical design creates visual tension and stands out from conventional layouts."
+    }
+  },
+  "circular_pattern": {
+    "description": "Central focal point with text elements radiating outward",
+    "example_200x200": {
+      "canvas": {"width": 200, "height": 200},
+      "elements": [
+        {
+          "type": "central_element",
+          "text": "50%",
+          "position": {"x": 75, "y": 75},
+          "dimensions": {"width": 50, "height": 50},
+          "styling": {
+            "font_size": 36,
+            "font_weight": "bold",
+            "color": "#FF4444",
+            "alignment": "center"
+          }
+        },
+        {
+          "type": "headline",
+          "text": "SALE",
+          "position": {"x": 60, "y": 30},
+          "dimensions": {"width": 80, "height": 30},
+          "styling": {
+            "font_size": 24,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "center"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "OFF",
+          "position": {"x": 60, "y": 140},
+          "dimensions": {"width": 80, "height": 30},
+          "styling": {
+            "font_size": 20,
+            "font_weight": "normal",
+            "color": "#666666",
+            "alignment": "center"
+          }
+        },
+        {
+          "type": "logo",
+          "position": {"x": 160, "y": 160},
+          "dimensions": {"width": 30, "height": 12},
+          "styling": {
+            "opacity": 0.8
+          }
+        }
+      ],
+      "rationale": "Circular arrangement creates visual movement and draws attention to central offer."
+    }
+  },
+  "golden_ratio_layout": {
+    "description": "Key elements positioned at golden ratio points (1.618:1)",
+    "example_728x90": {
+      "canvas": {"width": 728, "height": 90},
+      "elements": [
+        {
+          "type": "headline",
+          "text": "Premium Experience Awaits",
+          "position": {"x": 45, "y": 20},
+          "dimensions": {"width": 300, "height": 30},
+          "styling": {
+            "font_size": 22,
+            "font_weight": "bold",
+            "color": "#333333",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "Luxury redefined",
+          "position": {"x": 45, "y": 55},
+          "dimensions": {"width": 200, "height": 20},
+          "styling": {
+            "font_size": 14,
+            "font_weight": "normal",
+            "color": "#666666",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Explore",
+          "position": {"x": 450, "y": 25},
+          "dimensions": {"width": 100, "height": 40},
+          "styling": {
+            "font_size": 16,
+            "font_weight": "bold",
+            "color": "#FFFFFF",
+            "background_color": "#D4AF37",
+            "border_radius": 5
+          }
+        },
+        {
+          "type": "logo",
+          "position": {"x": 600, "y": 20},
+          "dimensions": {"width": 100, "height": 50},
+          "styling": {
+            "opacity": 1.0
+          }
+        }
+      ],
+      "rationale": "Golden ratio proportions create naturally pleasing composition that feels balanced and harmonious."
+    }
+  },
+  "modern_gradient_pattern": {
+    "description": "Modern gradient backgrounds with dynamic text placement and stylized elements",
+    "example_1200x628": {
+      "canvas": {"width": 1200, "height": 628},
+      "background": {
+        "type": "gradient",
+        "colors": ["#667eea", "#764ba2"],
+        "direction": "135deg",
+        "overlay_elements": [
+          {
+            "type": "circle",
+            "position": {"x": 900, "y": 100},
+            "radius": 150,
+            "fill": "rgba(255,255,255,0.1)",
+            "blur": "20px"
+          },
+          {
+            "type": "circle", 
+            "position": {"x": 200, "y": 400},
+            "radius": 100,
+            "fill": "rgba(255,255,255,0.05)",
+            "blur": "15px"
+          }
+        ]
+      },
+      "elements": [
+        {
+          "type": "headline",
+          "text": "Revolutionary AI Solution",
+          "position": {"x": 80, "y": 150},
+          "dimensions": {"width": 600, "height": 120},
+          "styling": {
+            "font_family": "Inter Bold",
+            "font_size": 56,
+            "font_weight": "800",
+            "color": "#FFFFFF",
+            "text_shadow": "0 4px 20px rgba(0,0,0,0.3)",
+            "line_height": 1.2,
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "Transform your business with cutting-edge technology",
+          "position": {"x": 80, "y": 290},
+          "dimensions": {"width": 550, "height": 80},
+          "styling": {
+            "font_family": "Inter Medium",
+            "font_size": 28,
+            "font_weight": "500",
+            "color": "rgba(255,255,255,0.9)",
+            "line_height": 1.3,
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Get Started",
+          "position": {"x": 80, "y": 420},
+          "dimensions": {"width": 200, "height": 65},
+          "styling": {
+            "font_family": "Inter Bold",
+            "font_size": 20,
+            "font_weight": "700",
+            "color": "#667eea",
+            "background": "linear-gradient(135deg, #FFFFFF, #F8F9FA)",
+            "border_radius": 35,
+            "box_shadow": "0 10px 30px rgba(0,0,0,0.2)",
+            "hover_transform": "translateY(-2px)"
+          }
+        },
+        {
+          "type": "logo",
+          "position": {"x": 950, "y": 50},
+          "dimensions": {"width": 200, "height": 80},
+          "styling": {
+            "filter": "drop-shadow(0 4px 12px rgba(0,0,0,0.2))"
+          }
+        }
+      ],
+      "rationale": "Modern gradient with glassmorphism effects, high contrast typography, and professional spacing"
+    }
+  },
+  
+  "vibrant_geometric_pattern": {
+    "description": "Vibrant backgrounds with geometric shapes and bold typography",
+    "example_1200x628": {
+      "canvas": {"width": 1200, "height": 628},
+      "background": {
+        "type": "geometric",
+        "base_color": "#FF6B6B",
+        "shapes": [
+          {
+            "type": "triangle",
+            "points": "0,0 400,0 200,300",
+            "fill": "rgba(255,107,107,0.8)"
+          },
+          {
+            "type": "circle",
+            "position": {"x": 800, "y": 200},
+            "radius": 200,
+            "fill": "rgba(74,144,226,0.3)"
+          },
+          {
+            "type": "polygon",
+            "points": "900,400 1100,350 1200,500 1000,600",
+            "fill": "rgba(255,193,7,0.4)"
+          }
+        ]
+      },
+      "elements": [
+        {
+          "type": "headline",
+          "text": "SAVE 20%",
+          "position": {"x": 100, "y": 80},
+          "dimensions": {"width": 400, "height": 100},
+          "styling": {
+            "font_family": "Montserrat Black",
+            "font_size": 72,
+            "font_weight": "900",
+            "color": "#FFFFFF",
+            "text_shadow": "0 6px 20px rgba(0,0,0,0.4)",
+            "letter_spacing": "2px",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "ON ORGANIC PRODUCTS",
+          "position": {"x": 100, "y": 200},
+          "dimensions": {"width": 500, "height": 60},
+          "styling": {
+            "font_family": "Montserrat Bold",
+            "font_size": 32,
+            "font_weight": "700",
+            "color": "#2C3E50",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "badge",
+          "text": "Limited Time",
+          "position": {"x": 100, "y": 280},
+          "dimensions": {"width": 180, "height": 45},
+          "styling": {
+            "font_family": "Montserrat Medium",
+            "font_size": 16,
+            "font_weight": "600",
+            "color": "#FFFFFF",
+            "background": "#E74C3C",
+            "border_radius": 25,
+            "text_align": "center"
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "SHOP NOW",
+          "position": {"x": 100, "y": 380},
+          "dimensions": {"width": 180, "height": 65},
+          "styling": {
+            "font_family": "Montserrat Bold",
+            "font_size": 18,
+            "font_weight": "800",
+            "color": "#FFFFFF",
+            "background": "#2C3E50",
+            "border_radius": 8,
+            "box_shadow": "0 8px 25px rgba(44,62,80,0.3)"
+          }
+        }
+      ],
+      "rationale": "Bold geometric design with high-impact typography and vibrant color contrasts"
+    }
+  },
+
+  "elegant_minimal_pattern": {
+    "description": "Elegant minimal design with sophisticated typography and subtle accents",
+    "example_1200x628": {
+      "canvas": {"width": 1200, "height": 628},
+      "background": {
+        "type": "minimal",
+        "base_color": "#F8F9FA",
+        "accent_elements": [
+          {
+            "type": "line",
+            "start": {"x": 0, "y": 100},
+            "end": {"x": 300, "y": 100},
+            "stroke": "#E74C3C",
+            "stroke_width": 4
+          },
+          {
+            "type": "dot_pattern",
+            "area": {"x": 700, "y": 200, "width": 400, "height": 300},
+            "color": "rgba(52,73,94,0.05)",
+            "spacing": 20
+          }
+        ]
+      },
+      "elements": [
+        {
+          "type": "headline",
+          "text": "Premium Quality",
+          "position": {"x": 80, "y": 140},
+          "dimensions": {"width": 500, "height": 80},
+          "styling": {
+            "font_family": "Playfair Display",
+            "font_size": 54,
+            "font_weight": "700",
+            "color": "#2C3E50",
+            "letter_spacing": "-1px",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "subheadline",
+          "text": "Crafted with Precision and Care",
+          "position": {"x": 80, "y": 240},
+          "dimensions": {"width": 450, "height": 50},
+          "styling": {
+            "font_family": "Source Sans Pro",
+            "font_size": 24,
+            "font_weight": "400",
+            "color": "#7F8C8D",
+            "line_height": 1.4,
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "feature_highlight",
+          "text": "• Premium Materials\n• Expert Craftsmanship\n• Lifetime Warranty",
+          "position": {"x": 80, "y": 320},
+          "dimensions": {"width": 300, "height": 120},
+          "styling": {
+            "font_family": "Source Sans Pro",
+            "font_size": 18,
+            "font_weight": "400",
+            "color": "#34495E",
+            "line_height": 1.8
+          }
+        },
+        {
+          "type": "cta_button",
+          "text": "Discover More",
+          "position": {"x": 80, "y": 480},
+          "dimensions": {"width": 180, "height": 55},
+          "styling": {
+            "font_family": "Source Sans Pro",
+            "font_size": 16,
+            "font_weight": "600",
+            "color": "#FFFFFF",
+            "background": "#E74C3C",
+            "border_radius": 4,
+            "box_shadow": "0 4px 15px rgba(231,76,60,0.3)"
+          }
+        }
+      ],
+      "rationale": "Sophisticated minimal design with elegant typography and subtle visual hierarchy"
+    }
+  },
+
+  "tech_futuristic_pattern": {
+    "description": "Tech-focused design with futuristic elements, modern typography, high-contrast colors, and artistic glows/particles for AI products.",
+    "example_1200x628": {
+      "canvas": {"width": 1200, "height": 628},
+      "background": {
+        "type": "tech",
+        "base_gradient": ["#0F0F23", "#1a1a2e"],
+        "tech_elements": [
+          {"type": "grid_lines", "color": "rgba(116,185,255,0.1)", "spacing": 50},
+          {"type": "glow_circle", "position": {"x": 900, "y": 150}, "radius": 120, "color": "rgba(116,185,255,0.2)", "blur": 40},
+          {"type": "particles", "count": 50, "area": {"x": 600, "y": 0, "width": 600, "height": 628}, "color": "rgba(116,185,255,0.3)"}
+        ]
+      },
+      "elements": [
+        {
+          "type": "logo",
+          "position": {"x": 40, "y": 40},
+          "dimensions": {"width": 240, "height": 90},  
+          "styling": {"opacity": 1.0, "filter": "drop-shadow(0 0 10px rgba(116,185,255,0.5))"}
+        },
+        {
+          "type": "headline",
+          "text": "Revolutionary AI Solution",
+          "position": {"x": 80, "y": 150},
+          "dimensions": {"width": 800, "height": 100},
+          "styling": {"font_family": "Orbitron", "font_size": 64, "font_weight": "900", "color": "#74B9FF", "text_shadow": "0 0 20px rgba(116,185,255,0.5)", "letter_spacing": "3px", "alignment": "left"}
+        },
+        {
+          "type": "subheadline",
+          "text": "Transform your business with cutting-edge AI",
+          "position": {"x": 80, "y": 280},
+          "dimensions": {"width": 700, "height": 80},
+          "styling": {"font_family": "Roboto", "font_size": 32, "font_weight": "300", "color": "#FFFFFF", "alignment": "left"}
+        },
+        {
+          "type": "cta_button",
+          "text": "Get Started",
+          "position": {"x": 900, "y": 500},
+          "dimensions": {"width": 220, "height": 60},
+          "styling": {"font_family": "Orbitron", "font_size": 20, "font_weight": "700", "color": "#0F0F23", "background": "linear-gradient(135deg, #74B9FF, #0984E3)", "border_radius": 30, "box_shadow": "0 0 25px rgba(116,185,255,0.4)"}
+        }
+      ],
+      "rationale": "Futuristic AI design with glowing effects, large top-left logo, Z-pattern flow (logo/headline top-left, CTA bottom-right), and artistic particles for professional tech appeal like event/food banners."
+    }
+  },
+  "ai_launch_pattern": {
+    "description": "Z-pattern layout for AI launches with artistic highlights, strong colors, and Rule-of-Thirds integration.",
+    "example_1200x628": {
+      "canvas": {"width": 1200, "height": 628},
+      "elements": [
+        {
+          "type": "logo",
+          "position": {"x": 40, "y": 40},
+          "dimensions": {"width": 240, "height": 90},  
+          "styling": {"opacity": 1.0, "filter": "drop-shadow(0 0 10px rgba(116,185,255,0.5))"}
+        },
+        {
+          "type": "headline",
+          "text": "Revolutionary AI Solution",
+          "position": {"x": 80, "y": 150},
+          "dimensions": {"width": 800, "height": 100},
+          "styling": {"font_family": "Orbitron", "font_size": 64, "font_weight": "900", "color": "#74B9FF", "text_shadow": "0 0 20px rgba(116,185,255,0.5)", "letter_spacing": "3px", "alignment": "left"}
+        },
+        {
+          "type": "subheadline",
+          "text": "Transform your business with cutting-edge AI",
+          "position": {"x": 80, "y": 280},
+          "dimensions": {"width": 700, "height": 80},
+          "styling": {"font_family": "Roboto", "font_size": 32, "font_weight": "300", "color": "#FFFFFF", "alignment": "left"}
+        },
+        {
+          "type": "cta_button",
+          "text": "Get Started",
+          "position": {"x": 900, "y": 500},
+          "dimensions": {"width": 220, "height": 60},
+          "styling": {"font_family": "Orbitron", "font_size": 20, "font_weight": "700", "color": "#0F0F23", "background": "linear-gradient(135deg, #74B9FF, #0984E3)", "border_radius": 30, "box_shadow": "0 0 25px rgba(116,185,255,0.4)"}
+        }
+      ],
+      "rationale": "Dynamic Z-flow with artistic emphasis on headline and logo, mirroring professional banners."
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import os, argparse
-from langchain_openai import AzureChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 from langchain_core.messages import HumanMessage, SystemMessage
 from tools.tool_utils import prepare_image_message, BOutput
@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--evaluator", type=str, help="gpt4o or claude", default="gpt4o")
+parser.add_argument("--evaluator", type=str, help="gpt5nano or claude", default="gpt5nano")
 parser.add_argument("--metric", type=str, help="alignment, overlap, whitespace, qa", default="CPYQ")
 parser.add_argument("--image_file" , type=str, help="Path to the image to be evaluated")
 parser.add_argument("--logo_file", type=str, help="Path to the logo")
@@ -15,11 +15,11 @@ parser.add_argument("--banner_request", type=str, help="The banner request")
 
 args = parser.parse_args()
 
-if args.evaluator == "gpt4o":
-    llm = AzureChatOpenAI(
-        azure_deployment=os.getenv("AZURE_OPENAI_DEPLOYMENT"),  # or your deployment
-        api_version="2024-10-21",  # or your api version #  os.getenv("AZURE_OPENAI_VERSION")
-        temperature=0.3, 
+if args.evaluator == "gpt5nano":
+    llm = ChatOpenAI(
+        model="gpt-5-nano",  # GPT-5-nano model
+        openai_api_key=os.getenv("OPENAI_API_KEY"),
+        temperature=1, 
         max_tokens=2000,
         max_retries=2,
     )
